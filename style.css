@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+
+body {
+    font-family: 'Plus Jakarta sans', sans-serif;
+    /* width: 100vw;
+    height: 100vh; */
+    overflow-x: hidden;
+}
+
+
+.flex {
+    display: flex;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* main classes */
+
+
+
+.header {
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.header img {
+    width: 7vw;
+    height: 4vh;
+    margin-top: 15px;
+    position: relative;
+    bottom: 6px;
+}
+
+.header button {
+    margin-right: 400px;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50px;
+    border: 0;
+    background-color: #13183f;
+    color: white;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    font-size: 20px;
+    font-weight: 701;
+    position: relative;
+    left: 100px;
+}
+
+.header button:hover {
+    background-color: #666ca3;
+    transition: 0.3s;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+    margin-left: 200px;
+    height: 900px;
+}
+
+.hero-section-text {
+    flex-direction: column;
+    gap: 50px;
+}
+
+.hero-section h1 {
+    max-width: 600px;
+    font-size: 65px;
+    margin-top: 170px;
+    font-weight: 800;
+    color: #13183f;
+}
+
+.hero-section-text p {
+    width: 550px;
+    font-size: 21px;
+    color: #83869a;
+    padding-right: 5px;
+}
+
+.hero-section-text button {
+    margin-right: 250px;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50px;
+    border: 0;
+    font-size: 20px;    
+    color: white;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    background: rgb(241, 113, 98);
+    background: linear-gradient(180deg, rgb(236, 102, 88) 0%, rgb(234, 75, 162) 98%, rgba(251, 141, 213, 1) 100%);
+}
+
+.hero-section img {
+    width: 60vw;
+    height: 50vw;
+    position: relative;
+    left: 300px;
+    bottom: 205px;
+    z-index: -1;
+}
+
+
+/* Features section */
+
+.features-section {
+    height: 100vh;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    gap: 120px;
+}
+
+.gradient-box {
+    /* margin-left: 200px; */
+    width: 20vw;
+    height: 38.5vh;
+    border-radius: 25px;
+    background: rgb(242,96,79);
+    background: linear-gradient(180deg, rgba(242,96,79,1) 0%, rgba(240,89,171,1) 98%, rgba(251,141,213,1) 100%);
+}
+
+.gradient-box h2 {
+    font-size: 35px;
+    color: white;
+    padding: 60px 40px;
+}
+
+/* ANIMATION-BOX */
+
+.animation-box {
+    width: 20vw;
+    height: 38.5vh;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(106, 99, 99, 0.341)
+}
+
+.animation-box img {
+    width: 3.5vw;
+    position: relative;
+    bottom: 60px;
+}
+
+.animation-box h2 {
+    position: relative;
+    bottom: 40px;
+}
+.animation-box p {
+    color: #83869a;
+    font-size: 21px;
+}
+.animation-box button{
+    width: 7vw;
+    height: 5vh;
+    border: 0;
+    font-size: 22px;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    right: 5px;
+    color: #f74780;
+}
+
+.animation-box button:hover {
+    color: #ffa7c3;
+}
+
+/* Design-box  */
+
+.Design-box {
+    width: 20vw;
+    height: 38.5vh;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(106, 99, 99, 0.341)
+}
+
+.Design-box img {
+    width: 3.5vw;
+    position: relative;
+    bottom: 60px;
+}
+
+.Design-box h2 {
+    position: relative;
+    bottom: 40px;
+}
+.Design-box p {
+    color: #83869a;
+    font-size: 21px;
+}
+.Design-box button{
+    width: 7vw;
+    height: 5vh;
+    border: 0;
+    font-size: 22px;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    background-color: white;
+    position: relative;
+    top: 55px;
+    right: 5px;
+    color: #f74780;
+}
+
+.Design-box button:hover {
+    color: #ffa7c3;
+}
+
+/* PHOTOGRAPHY BOX */
+
+
+.Photography-box {
+    width: 20vw;
+    height: 38.5vh;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(106, 99, 99, 0.341)
+}
+
+.Photography-box img {
+    width: 3.5vw;
+    position: relative;
+    bottom: 60px;
+}
+
+.Photography-box h2 {
+    position: relative;
+    bottom: 40px;
+}
+.Photography-box p {
+    color: #83869a;
+    font-size: 21px;
+}
+.Photography-box button{
+    width: 7vw;
+    height: 5vh;
+    border: 0;
+    font-size: 22px;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    right: 5px;
+    color: #f74780;
+}
+
+.Photography-box button:hover {
+    color: #ffa7c3;
+}
+
+
+/* CRYPTO BOX */
+
+.Crypto-box {
+    width: 20vw;
+    height: 38.5vh;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(106, 99, 99, 0.341)
+}
+
+.Crypto-box img {
+    width: 3.5vw;
+    position: relative;
+    bottom: 60px;
+}
+
+.Crypto-box h2 {
+    position: relative;
+    bottom: 40px;
+}
+.Crypto-box p {
+    color: #83869a;
+    font-size: 21px;
+}
+.Crypto-box button{
+    width: 7vw;
+    height: 5vh;
+    border: 0;
+    font-size: 22px;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    right: 5px;
+    color: #f74780;
+}
+
+.Crypto-box button:hover {
+    color: #ffa7c3;
+}
+
+
+/* BUSINESS BOX */
+
+.Business-box {
+    width: 20vw;
+    height: 38.5vh;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(106, 99, 99, 0.341)
+}
+
+.Business-box img {
+    width: 3.5vw;
+    position: relative;
+    bottom: 60px;
+}
+
+.Business-box h2 {
+    position: relative;
+    bottom: 40px;
+}
+.Business-box p {
+    color: #83869a;
+    font-size: 21px;
+}
+.Business-box button{
+    width: 7vw;
+    height: 5vh;
+    border: 0;
+    font-size: 22px;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    right: 5px;
+    color: #f74780;
+}
+
+.Business-box button:hover {
+    color: #ffa7c3;
+}
+
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: #13183f;
+}
+
+
+.footer {
+    margin-top: 40px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.footer img {
+    width: 7vw;
+    height: 3.8vh;
+    margin-top: 15px;
+    position: relative;
+    top: 25px;
+}
+
+.footer button {
+    margin-right: 400px;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 50px;
+    border: 0;
+    background: rgb(135,52,238);
+    background: linear-gradient(180deg, rgba(135,52,238,1) 25%, rgba(238,7,235,1) 100%);;
+    color: white;
+    font-family: 'Plus Jakarta sans', sans-serif;
+    font-size: 20px;
+    font-weight: 701;
+    position: relative;
+    left: 50px;
+    top: 25px;
+}
