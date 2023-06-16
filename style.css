@@ -3,8 +3,6 @@
 
 body {
     font-family: 'Plus Jakarta sans', sans-serif;
-    /* width: 100vw;
-    height: 100vh; */
     overflow-x: hidden;
 }
 
@@ -177,7 +175,7 @@ p {
     height: 5vh;
     border: 0;
     font-size: 22px;
-    background-color: rgba(248,248,248,255);
+    background-color:white;
     font-family: 'Plus Jakarta sans', sans-serif;
     position: relative;
     top: 30px;
@@ -218,7 +216,7 @@ p {
     height: 5vh;
     border: 0;
     font-size: 22px;
-    background-color: rgba(248,248,248,255);
+    background-color: white;
     font-family: 'Plus Jakarta sans', sans-serif;
     position: relative;
     top: 55px;
@@ -260,7 +258,7 @@ p {
     height: 5vh;
     border: 0;
     font-size: 22px;
-    background-color: rgba(248,248,248,255);
+    background-color:white;
     font-family: 'Plus Jakarta sans', sans-serif;
     position: relative;
     top: 30px;
@@ -302,7 +300,7 @@ p {
     height: 5vh;
     border: 0;
     font-size: 22px;
-    background-color: rgba(248,248,248,255);
+    background-color:white;
     font-family: 'Plus Jakarta sans', sans-serif;
     position: relative;
     top: 30px;
@@ -344,7 +342,7 @@ p {
     height: 5vh;
     border: 0;
     font-size: 22px;
-    background-color: rgba(248,248,248,255);
+    background-color: white;
     font-family: 'Plus Jakarta sans', sans-serif;
     position: relative;
     top: 30px;
